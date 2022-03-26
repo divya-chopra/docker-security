@@ -75,7 +75,7 @@ Command: docker container exec -it memlimit02 bash
 
   
 -> Restrict CPU: 
-To check all options available for cpu (-c)
+To check all options available for cpu (-cpus)
 Command: docker run --help
 
 ![image](https://user-images.githubusercontent.com/59343209/160228643-82b88deb-c2f3-4b13-8fd9-05c311e38b81.png)
@@ -113,4 +113,4 @@ Example:
     useradd testuser   ---> Not permitted
     chown testuser:root test.txt    ---> Not permitted
     
-Best Practice: Allow minimum capabilities that are must to run the application. 
+Best Security Practice: Allow minimum capabilities that are must to run the application. 
