@@ -31,6 +31,7 @@ Command for windows: tasklist
 Command: docker run -dt --name namespace01 busybox sh
 Command: docker exec -it namespace01 sh
 Command: ps -ef
+hostname
 
 The running process in container will be different from the running processes of host machine. This isolation is the result of namespace.
 
